@@ -1,0 +1,42 @@
+.container{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10vh;
+}
+
+.post{
+    text-align: center;
+    margin: 1vh;
+    width: 80%;
+    background-color: #e0f8f9;
+    height: 20%;
+}
+
+.post p{
+    font-size: 1.5em;
+}
+
+.post_img {
+    width: 60vw;
+    height:auto;
+}
+
+.button{
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    color: initial;
+    padding: 2vh;
+    background-color: blue;
+    color: white;
+    display: block; 
+    border-radius: 100%;   
+}
+
+.button:hover{
+    background-color: white;
+    color: black;
+}

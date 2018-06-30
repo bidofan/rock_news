@@ -1,0 +1,10 @@
+<div class="container">
+    <% @news.each do |n|%>
+    <div class="post">
+        <h1><%= n.title %></h1>
+        <%= image_tag(n.image, class: "post_img") %><br />
+        <p><%= n.description %></p>
+        <a href="<%= n.url %>" class="button"> Read more </a> 
+    </div>
+    <% end %>
+</div>
